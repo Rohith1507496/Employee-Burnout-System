@@ -1,0 +1,240 @@
+=========================================================
+EMPLOYEE BURNOUT PREDICTION SYSTEM
+INPUT AND OUTPUT DEMONSTRATION
+=========================================================
+
+---------------------------------------------------------
+OPTION 1 - REGISTER EMPLOYEE
+---------------------------------------------------------
+
+INPUT:
+
+1
+
+Employee ID: 201
+Name: Rohith Kumar
+Email: rohith@company.com
+Department: IT
+Working Hours: 12
+Stress Level: 10
+Work-Life Balance: 1
+Support Level: 1
+Mental Fatigue: 10
+
+OUTPUT:
+
+Employee Registered Successfully
+
+Employee ID      : 201
+Name             : Rohith Kumar
+Department       : IT
+Burnout Index    : 0.92
+Risk Level       : HIGH
+
+
+---------------------------------------------------------
+OPTION 2 - SEARCH EMPLOYEE
+---------------------------------------------------------
+
+INPUT:
+
+2
+
+Enter Employee ID:
+201
+
+OUTPUT:
+
+Employee Found
+
+Employee ID      : 201
+Name             : Rohith Kumar
+Email            : rohith@company.com
+Department       : IT
+Burnout Index    : 0.92
+Risk Level       : HIGH
+
+
+---------------------------------------------------------
+OPTION 3 - DISPLAY ALL EMPLOYEES
+---------------------------------------------------------
+
+INPUT:
+
+3
+
+OUTPUT:
+
+=================================================
+EMPLOYEE LIST
+=================================================
+
+ID: 201
+Name: Rohith Kumar
+Department: IT
+Burnout Index: 0.92
+
+ID: 202
+Name: John Peter
+Department: Marketing
+Burnout Index: 0.76
+
+ID: 203
+Name: Diana Prince
+Department: HR
+Burnout Index: 0.22
+
+=================================================
+Total Employees: 3
+=================================================
+
+
+---------------------------------------------------------
+OPTION 4 - DISPLAY TOP BURNOUT RISKS
+---------------------------------------------------------
+
+INPUT:
+
+4
+
+Enter number of employees:
+3
+
+OUTPUT:
+
+=================================================
+TOP BURNOUT RISK EMPLOYEES
+=================================================
+
+1. Rohith Kumar
+   Burnout Index: 0.92
+   Risk Level: HIGH
+
+2. Muthu Vijayan
+   Burnout Index: 0.88
+   Risk Level: HIGH
+
+3. John Peter
+   Burnout Index: 0.76
+   Risk Level: HIGH
+
+=================================================
+
+
+---------------------------------------------------------
+OPTION 5 - SEARCH BURNOUT RANGE
+---------------------------------------------------------
+
+INPUT:
+
+5
+
+Enter Minimum Burnout Index:
+0.70
+
+Enter Maximum Burnout Index:
+1.00
+
+OUTPUT:
+
+=================================================
+EMPLOYEES IN RANGE
+=================================================
+
+ID: 201
+Name: Rohith Kumar
+Burnout Index: 0.92
+
+ID: 204
+Name: Muthu Vijayan
+Burnout Index: 0.88
+
+ID: 202
+Name: John Peter
+Burnout Index: 0.76
+
+Total Employees Found: 3
+
+=================================================
+
+
+---------------------------------------------------------
+OPTION 6 - TRAIN MODEL
+---------------------------------------------------------
+
+INPUT:
+
+6
+
+OUTPUT:
+
+=================================================
+MODEL TRAINING
+=================================================
+
+Training burnout prediction model...
+
+Dataset Size: 5 Employees
+
+Epoch 1:
+Loss = 0.2456
+
+Epoch 100:
+Loss = 0.1023
+
+Epoch 200:
+Loss = 0.0514
+
+Epoch 300:
+Loss = 0.0287
+
+Training Completed Successfully
+
+=================================================
+
+
+---------------------------------------------------------
+OPTION 7 - GENERATE REPORT
+---------------------------------------------------------
+
+INPUT:
+
+7
+
+OUTPUT:
+
+=================================================
+BURNOUT ANALYTICS REPORT
+=================================================
+
+Total Employees          : 5
+High Risk Employees      : 2
+Moderate Risk Employees  : 2
+Low Risk Employees       : 1
+
+Average Burnout Score    : 0.63
+
+Report Generated Successfully
+
+=================================================
+
+
+---------------------------------------------------------
+OPTION 8 - EXIT
+---------------------------------------------------------
+
+INPUT:
+
+8
+
+OUTPUT:
+
+Thank You For Using
+
+EMPLOYEE BURNOUT PREDICTION SYSTEM
+
+Program Terminated Successfully.
+
+=========================================================
+END OF FILE
+=========================================================
